@@ -1,7 +1,7 @@
 // in pong-1/src/main.rs
 
 use ggez::conf::{FullscreenType, NumSamples, WindowMode, WindowSetup};
-use ggez::event::EventHandler;
+use ggez::event::{EventHandler, KeyCode, KeyMods};
 use ggez::*;
 use glam::Vec2;
 
@@ -48,6 +48,19 @@ impl EventHandler<GameError> for State {
         graphics::present(ctx)?;
 
         Ok(())
+    }
+
+    fn key_down_event(
+        &mut self,
+        ctx: &mut Context,
+        keycode: KeyCode,
+        _keymod: KeyMods,
+        _repeat: bool,
+    ) {
+        match keycode {
+            KeyCode::Escape => event::quit(ctx),
+            _ => panic!(),
+        }
     }
 }
 
