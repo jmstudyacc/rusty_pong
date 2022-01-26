@@ -80,6 +80,9 @@ fn main() -> GameResult {
     // create a context & event loop
     let (mut ctx, event_loop) = cb.build()?;
 
+    // set the filter mode to achieve a crisp 2D quality
+    graphics::set_default_filter(&mut ctx, graphics::FilterMode::Nearest);
+
     // create a new state
     let state = State::new(&mut ctx)?;
 

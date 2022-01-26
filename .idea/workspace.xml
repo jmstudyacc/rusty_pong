@@ -10,11 +10,8 @@
     <cargoProject FILE="$PROJECT_DIR$/pong-1/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bb3a465-6f09-4d93-9fc9-3b7a4b851b52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pong-1/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rusty_pong.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rusty_pong.iml" afterDir="false" />
+    <list default="true" id="7bb3a465-6f09-4d93-9fc9-3b7a4b851b52" name="Changes" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pong-1/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pong-1/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pong-1/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/pong-1/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +149,8 @@
       <option name="presentableId" value="Default" />
       <updated>1643039344789</updated>
       <workItem from="1643039345848" duration="8353000" />
-      <workItem from="1643050576514" duration="6928000" />
+      <workItem from="1643050576514" duration="7094000" />
+      <workItem from="1643227773123" duration="79000" />
     </task>
     <servers />
   </component>
